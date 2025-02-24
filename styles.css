@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-container {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.div-container input {
+    flex: 1;
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    color: #1E1E1E; 
+}
+
+.div-container input:focus {
+    outline: none;
+}
+
+.div-container button {
+    width: 20%;
+    height: 100%;
+    font-size: 1.3rem;
+    padding: 0 10px;
+    text-align: center;
+    border: none;
+    background-color: #48CC58;
+    color: white;
+    cursor: pointer;
+}
+
+.list {
+    max-width: 20rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.item {
+    margin: 5px;
+}
