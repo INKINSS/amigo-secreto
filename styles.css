@@ -39,7 +39,8 @@ main {
     padding: 0 20px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
-    color: #1E1E1E; 
+    color: #1E1E1E;
+    border-radius: 10px 0 0 10px;
 }
 
 .div-container input:focus {
@@ -47,6 +48,12 @@ main {
 }
 
 .div-container button.disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+    transition: all 0.3s ease;
+}
+
+button.disabled {
     background-color: #bbb;
     cursor: not-allowed;
     transition: all 0.3s ease;
@@ -63,17 +70,44 @@ main {
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    border-radius: 0 10px 10px 0;
 }
 
 .list {
-    max-width: 20rem;
+    min-width: 100%;
+    min-height: 6rem;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    align-items: center;
     list-style: none;
 }
 
 .item {
-    margin: 5px;
+    padding: 10px;
+    color: #1E1E1E;
+}
+
+.raffle {
+    margin-top: 20px;
+    width: 50%;
+    height: 45px;
+    font-size: 1.3rem;
+    padding: 0 10px;
+    text-align: center;
+    border: none;
+    background-color: #4867cc;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    border-radius: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    color: #1E1E1E;
+}
+
+.hidden {
+    display: none;
 }
