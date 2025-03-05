@@ -4,19 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>challenge amigo secreto</title>
+    <title>Challenge Amigo Secreto</title>
   </head>
   <body>
     <main>
-      <h1 class="title">amigo secreto</h1>
+      <h1 class="title">Amigo Secreto</h1>
+      <p class="subtitle">añade los nombres de tus amigos para poder sortear un amigo secreto <span class="warning">evita añadir numeros</span></p>
       <div class="div-container">
         <input class="input" aria-label="input" type="text" id="input" />
-        <button
-          onclick="addFriendToList()"
-          class="button"
-          type="button"
-          id="addButton"
-        >
+        <button class="button" type="button" id="addButton">
           añadir
         </button>
       </div>
@@ -24,7 +20,12 @@
       <button class="raffle" type="button" id="raffle">sortear</button>
       <p class="result" id="hidden"><span class="result" id="result"></span></p>
     </main>
-    <script src="./index.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Confetti -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <!-- Tu archivo JavaScript -->
+    <script src="./index.js"></script>
   </body>
 </html>
