@@ -82,6 +82,7 @@ const raffleFriend = () => {
   });
   //limpiar la lista de elemntos para que vuelva a ser cero
   list.innerHTML = "";
+  raffle.classList.add("disabled");
 }
 
 raffle.addEventListener("click", raffleFriend);
