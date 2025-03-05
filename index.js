@@ -64,13 +64,24 @@ const raffleFriend = () => {
   const randomIndex = Math.floor(Math.random() * friends.length);
   const friendRaffle = friends[randomIndex].textContent;
   raffle.disabled = true;
-  result.innerHTML = `el amigo secreto es ${friendRaffle}`;
+
+  const swalAlert = () => {
+    Swal.fire({
+      title: 'Felicidades',
+      text: 'tu amigo secreto es: ' + friendRaffle,
+      icon: 'success',
+      confirmButtonText: 'Volver a jugar'
+    })
+  }
+  swalAlert();
   hidden.classList.remove("hidden");
   confetti({
     particleCount: 200,
     spread: 70,
     origin: { y: 0.6 },
   });
+  //limpiar la lista de elemntos para que vuelva a ser cero
+  list.innerHTML = "";
 }
 
 raffle.addEventListener("click", raffleFriend);
