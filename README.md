@@ -25,6 +25,10 @@ Este proyecto es una aplicación web para realizar un sorteo de "Amigo Secreto".
 ├── styles.css
 ├── index.js
 └── README.md
+└── /assets
+    └── /img
+          └── amigo-secreto.png
+          └── sorteo-amigo-secreto.png
 ```
 
 ## Cómo Usar
@@ -38,11 +42,11 @@ Este proyecto es una aplicación web para realizar un sorteo de "Amigo Secreto".
 
 ### Pantalla Principal
 
-![Pantalla Principal](./screenshots/main.png)
+![Pantalla Principal](./assets/img/amigo-secreto.png)
 
 ### Resultado del Sorteo
 
-![Resultado del Sorteo](./screenshots/result.png)
+![Resultado del Sorteo](./assets/img/sorteo-amigo-secreto.png)
 
 ## Contribuciones
 
