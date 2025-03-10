@@ -42,11 +42,11 @@ Este proyecto es una aplicación web para realizar un sorteo de "Amigo Secreto".
 
 ### Pantalla Principal
 
-![Pantalla Principal](./assets/img/amigo-secreto.png)
+![Pantalla Principal](./assets/img/amigo-secreto.webp)
 
 ### Resultado del Sorteo
 
-![Resultado del Sorteo](./assets/img/sorteo-amigo-secreto.png)
+![Resultado del Sorteo](./assets/img/sorteo-amigo-secreto.webp)
 
 ## Contribuciones
 
